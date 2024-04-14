@@ -1,0 +1,292 @@
+:root {
+    --main-color: #FF90CA;
+    --bg: #fff;
+    --black: #000000;
+    --fundo: #f1b9f3dc;
+
+    font-size: 10px;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s linear;
+    font-family: "Dancing Script", cursive;
+
+
+}
+
+
+body {
+    background-color: var(--bg)
+}
+
+section {
+    padding: 3rem 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+
+
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    background: #F7C5C8;
+    border-bottom: solid 1px;
+    color: #000;
+
+
+}
+
+.header section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+
+}
+
+.navbar a {
+    margin: 0 1rem;
+    font-size: 2.8rem;
+    color: black;
+
+}
+
+.navbar p {
+    visibility: hidden;
+
+}
+
+.navbar a:hover {
+    color: var(--bg);
+    border-bottom: var(--main-color);
+    padding-bottom: 0.5px;
+    font-size: 3.3rem;
+}
+
+.icons img {
+    margin: 1rem;
+    cursor: pointer;
+
+}
+
+.icons img:hover {
+    width: 40px;
+    height: 40px;
+}
+
+.btn {
+    background: var(--main-color);
+    color: #fff;
+    padding: 0.5rem 2.5rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 1rem;
+    display: inline-block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.btn:hover {
+    letter-spacing: 0.1rem;
+    background-color: #cc7474;
+}
+
+.home-container {
+    background: url(./assets/fundo.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.home-container section {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.content {
+    max-width: 60rem;
+}
+
+.content h3 {
+    color: #fff;
+    font-size: 6rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.content p {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 1.8;
+    padding: 1rem 0rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.title {
+    font-size: 5rem;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 4rem;
+    font-family: Family Lato, sans-serif;
+
+}
+
+
+.title span {
+    color: #00A470;
+    font-family: DMSans, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    line-height: normal;
+    font-size: 5rem;
+
+}
+
+.title-jequiti {
+    color: #7A206C;
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 4rem;
+    font-family: Family "Red Hat Display", sans-serif;
+    font-Weight: 200;
+    Line-Height: 18px;
+}
+
+.boticario .row {
+    display: flex;
+    align-items: center;
+    background-color: var(--fundo);
+    gap: 2.5rem;
+    height: 400px;
+
+}
+
+.boticario .row .content {
+    padding: 2rem;
+}
+
+.boticario .row .content h3 {
+    color: #000;
+    font-size: 3.5rem;
+}
+
+.boticario .row .content p {
+    font-size: 1.6rem;
+    color: #00A470;
+    padding: 1rem 0;
+    line-height: 2.8rem;
+    font-weight: 700;
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+
+}
+
+.demillus .box-container .box {
+    text-align: center;
+    border: solid 1px;
+    color: #cfc6c6;
+    padding: 5rem;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.demillus .box-container .box:hover {
+    border: solid 1px;
+    color: #000000;
+}
+
+.demillus .box-container .box img {
+    width: 200px;
+    height: 200px;
+
+}
+
+.demillus .box-container .box h3 {
+    color: #000;
+    font-size: 2.5rem;
+    padding: 1rem 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.paragrafo {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    color: #070707ee;
+}
+
+.demillus .box-container .box:hover {
+    background-color: var(--fundo);
+}
+
+.anddress {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.footer {
+    text-align: center;
+
+}
+
+.footer .marcas {
+    padding: 1rem 0;
+}
+
+.footer .marcas img {
+    margin: 0.3rem;
+    padding: 1rem;
+    align-items: center;
+}
+
+@media(max-width:700px) {
+    
+
+    .header section {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        padding: 0;
+        padding-bottom: 1.5rem;
+    }
+
+    .cabecalho {
+        visibility: hidden;
+    }
+    .navbar p {
+        visibility:visible;
+        font-size: 3rem;
+        margin-left: 2rem;
+        position: fixed;
+        margin-top: 15px;
+    }
+    .icons img {
+        margin: 1rem;
+        cursor: pointer;
+       
+    
+    }
+    
+    
+}
+
