@@ -199,6 +199,14 @@ section {
     gap: 1.5rem;
 
 }
+.revista-pdf {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+
+}
 
 .demillus .box-container .box {
     text-align: center;
@@ -284,6 +292,13 @@ section {
         margin: 1rem;
         cursor: pointer;
        
+    }
+    .revista-pdf {
+        display: block;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 30px;
+        width: 400px;
     
     }
     
