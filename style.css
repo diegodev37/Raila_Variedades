@@ -146,16 +146,46 @@ section {
     font-family: Family Lato, sans-serif;
 
 }
+span {
+    color:#00A470;
+    padding: 1rem 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.boticario .box-container .box {
+    text-align: center;
+    border: solid 1px;
+    color: #cfc6c6;
+    padding: 5rem;
+    cursor: pointer;
+    border-radius: 10px;
+}
 
+.boticario .box-container .box:hover {
+    border: solid 1px;
+    color: #000000;
+}
 
-.title span {
-    color: #00A470;
-    font-family: DMSans, Helvetica, Arial, sans-serif;
-    font-weight: 700;
-    line-height: normal;
-    font-size: 5rem;
+.boticario .box-container .box img {
+    width: 200px;
+    height: 200px;
 
 }
+
+.boticario .box-container .box h3 {
+    color: #000;
+    font-size: 2.5rem;
+    padding: 1rem 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.boticario .box-container .box:hover {
+    background-color: #00A470
+}
+
+
+
 
 .title-jequiti {
     color: #7A206C;
@@ -165,32 +195,6 @@ section {
     font-family: Family "Red Hat Display", sans-serif;
     font-Weight: 200;
     Line-Height: 18px;
-}
-
-.boticario .row {
-    display: flex;
-    align-items: center;
-    background-color: var(--fundo);
-    gap: 2.5rem;
-    height: 400px;
-
-}
-
-.boticario .row .content {
-    padding: 2rem;
-}
-
-.boticario .row .content h3 {
-    color: #000;
-    font-size: 3.5rem;
-}
-
-.boticario .row .content p {
-    font-size: 1.6rem;
-    color: #00A470;
-    padding: 1rem 0;
-    line-height: 2.8rem;
-    font-weight: 700;
 }
 
 .box-container {
@@ -275,7 +279,7 @@ section {
         align-items: center;
         justify-content: start;
         padding: 0;
-        padding-bottom: 1.5rem;
+        padding-bottom: 1px;
     }
 
     .cabecalho {
@@ -293,14 +297,7 @@ section {
         cursor: pointer;
        
     }
-    .revista-pdf {
-        display: block;
-        align-items: center;
-        flex-direction: column;
-        margin-bottom: 30px;
-        width: 400px;
-    
-    }
+   
     
     
 }
