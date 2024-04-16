@@ -271,7 +271,7 @@ span {
     align-items: center;
 }
 
-@media(max-width:700px) {
+@media(max-width:500px) {
     
 
     .header section {
@@ -279,7 +279,8 @@ span {
         align-items: center;
         justify-content: start;
         padding: 0;
-        padding-bottom: 1px;
+        padding-bottom: 2rem;
+        height: 90px;
     }
 
     .cabecalho {
@@ -290,11 +291,12 @@ span {
         font-size: 3rem;
         margin-left: 2rem;
         position: fixed;
-        margin-top: 15px;
+        margin-top: 30px;
     }
     .icons img {
         margin: 1rem;
         cursor: pointer;
+        visibility: hidden;
        
     }
    
