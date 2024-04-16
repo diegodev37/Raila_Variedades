@@ -1,1 +1,1 @@
-https://diegodev37.github.io/Raila_Variedades/
+raila-variedades.netlify.app
