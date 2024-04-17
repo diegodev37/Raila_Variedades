@@ -11,4 +11,4 @@
 
 [(https://raila-variedades.netlify.app/](https://raila-variedades.netlify.app/)
 
-<img src="https://github.com/diegodev37/Raila_Variedades/blob/main/capa_do_readme_Easy-Resize.com.jpg?raw=true">
+<img src="https://github.com/diegodev37/Raila_Variedades/blob/main/capa_do_readme.png?raw=true">
