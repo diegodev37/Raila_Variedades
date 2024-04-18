@@ -53,13 +53,13 @@ section {
     align-items: center;
     justify-content: space-between;
     padding-top: 0;
-    padding-bottom: 1.5rem;
+    padding-bottom: 0rem;
 
 }
 
 .navbar a {
     margin: 0 1rem;
-    font-size: 3.0rem;
+    font-size: 2.8rem;
     color: black;
     
 
