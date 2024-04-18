@@ -40,8 +40,9 @@ section {
     left: 0;
     right: 0;
     z-index: 99;
-    background: #F7C5C8;
     border-bottom: solid 1px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
     color: #000;
 
 
@@ -51,15 +52,16 @@ section {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 1.5rem;
+    padding-top: 0;
     padding-bottom: 1.5rem;
 
 }
 
 .navbar a {
     margin: 0 1rem;
-    font-size: 2.8rem;
+    font-size: 3.0rem;
     color: black;
+    
 
 }
 
@@ -288,8 +290,8 @@ span {
     }
     .navbar p {
         visibility:visible;
-        font-size: 3rem;
-        margin-left: 2rem;
+        font-size: 2.5rem;
+        margin-left: 1.0rem;
         position: fixed;
         margin-top: 30px;
     }
@@ -305,4 +307,32 @@ span {
     }
        
 }
+@media(max-width:394px){
+    .navbar p {
+        visibility:visible;
+        font-size: 2.5rem;
+        margin-left: 1.0rem;
+        position: fixed;
+        margin-top: 50px;
+    }
+    .content h3 {
+        
+        font-size: 4.5rem;
+    }
+       
 
+}
+@media(max-width:361px){
+    .navbar p {
+        visibility:visible;
+        font-size: 2.5rem;
+        margin-left: 1.0rem;
+        position: fixed;
+        margin-top: 60px;
+    }
+    .content h3 {
+        
+        font-size: 4.5rem;
+    }
+       
+}
