@@ -9,6 +9,6 @@
 <h2>Projeto ja com responsividade mobile!</h2>
 
 
-[(https://raila-variedades.netlify.app/](https://raila-variedades.netlify.app/)
+https://beleza-cosmeticos.netlify.app/
 
 <img src="https://github.com/diegodev37/Raila_Variedades/blob/main/capa_do_readme.png?raw=true">
