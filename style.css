@@ -272,7 +272,13 @@ span {
     padding: 1rem;
     align-items: center;
 }
-
+.marca{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.name:hover{
+    color: #cc7474;
+}
 @media(max-width:500px) {
     
 
